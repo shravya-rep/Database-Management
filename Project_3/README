@@ -1,0 +1,71 @@
+# 🌍 Geospatial Data Handling and Visualization
+
+This project demonstrates end-to-end spatial data processing using KML, PostGIS, OpenLayers, and ArcGIS. The goal is to collect, organize, query, and visualize real-world location data, integrating both backend and frontend geospatial tools.
+
+---
+
+## 📌 Objectives
+
+- Collect geolocation data across real-world locations (USC campus + residence).
+- Store and categorize the data in a `.kml` file for Google Earth.
+- Perform spatial queries like Convex Hull and Nearest Neighbors using PostGIS.
+- Build an interactive map-based web interface using OpenLayers.
+- Create and visualize a Spirograph pattern overlaid on a real map using shapefiles.
+
+---
+
+## 🧱 Project Components
+
+### 📍 1. KML Creation
+- Generated `.kml` file with 13 placemarks across 4 categories:
+  - Academic Buildings
+  - Coffee Shops
+  - Water Points
+  - Emergency Phones
+- Visualized in **Google Earth** with labeled placemarks and custom styling.
+
+### 🧮 2. Spatial Queries with PostGIS
+- Created a **Convex Hull** around all locations.
+- Queried **4 Nearest Neighbors** to a reference point.
+- Exported query results as KML lines and points for visualization.
+
+### 🧭 3. Interactive Mapping with OpenLayers
+- Stored spatial data in the browser using `localStorage`.
+- Rendered a web-based map using **OpenLayers** with categorized markers and custom icons.
+- Created interactive layer toggling for each location type.
+
+### 🎡 4. Spirograph Curve Generation
+- Used parametric equations to generate spirograph curves centered on Tommy Trojan.
+- Converted coordinates to a **shapefile** and visualized in **ArcGIS Online**.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **PostgreSQL/PostGIS** – Spatial SQL queries
+- **Google Earth** – KML visualization
+- **OpenLayers + HTML5** – Interactive mapping
+- **ArcGIS Online** – Spirograph overlay
+- **Python** – Parametric coordinate generation
+
+---
+
+## 📂 Repository Structure
+
+project/
+├── data/
+│ ├── USC_locations.kml
+│ ├── spirograph_coordinates.txt
+│ └── shapefiles/
+├── maps/
+│ └── openlayers_map.html
+├── queries/
+│ └── spatial_queries.sql
+├── screenshots/
+│ └── kml_google_earth.png
+└── README.md
+
+## 📄 Author
+
+Shravya Shashidhar  
+*M.S. Computer Science | Spatial Databases & Web Mapping*
