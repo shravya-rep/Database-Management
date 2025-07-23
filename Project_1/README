@@ -1,0 +1,62 @@
+# 🦷 Dental Practice Database Design
+
+This project presents a comprehensive **Entity-Relationship (ER) model** for managing operations in a new dental practice. The design supports clinical, administrative, and financial activities by modeling patients, treatments, staff, insurance, and billing flows.
+
+---
+
+## 📌 Objectives
+
+- Create a robust conceptual database model to support a growing dental practice.
+- Ensure all essential workflows are captured: patient scheduling, treatment management, billing, and recurring expenses.
+- Enable structured data capture for financial reporting and operational decision-making.
+
+---
+
+## 🧱 Key Entities and Relationships
+
+- **Patient**: Personal information, insurance coverage, visit history.
+- **Staff**: Includes administrative staff and dentists with roles and salaries.
+- **Doctor**: Assigned to patients and treatments; may share patients with other doctors.
+- **Treatment**: Linked to patients, doctors, and room assignment; each visit includes multiple treatments.
+- **Billing**: Tracks payments (by patient and insurance), invoices, and cost breakdowns.
+- **Room**: Tracks usage, availability, and supplies needed for treatments.
+- **Recurring Expenses**: Includes rent, salaries, supplies – tracked monthly.
+- **Reports**: Generates daily and monthly financial summaries for management.
+
+---
+
+## 📐 ER Design Highlights
+
+- Modeled using **Crow's Foot Notation**.
+- Defined participation and cardinality constraints to maintain data integrity.
+- Designed for extensibility (e.g., adding more treatments, billing methods, or locations).
+
+---
+
+## 📎 Deliverables
+
+- `Dental_ER_Diagram.pdf` – Final ER diagram.
+- `README.md` – Project summary and scope.
+- Optional: SQL schema design (to be developed in future iterations).
+
+---
+
+## 🛠 Tools Used
+
+- Diagramming Tool: Draw.io / Lucidchart / yEd
+- Notation: Crow’s Foot ER Modeling
+
+---
+
+## 🚀 Future Scope
+
+- Convert ER model to relational schema and implement in PostgreSQL or MySQL.
+- Integrate front-end interface for appointment booking and billing.
+- Automate report generation using stored procedures and triggers.
+
+---
+
+## 📄 Author
+
+Shravya Shashidhar  
+*M.S. Computer Science | Database Systems & Design*
