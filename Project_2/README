@@ -1,0 +1,26 @@
+# 🛠️ Project 2: SQL Implementation for Dental Practice Database
+
+This project extends the conceptual ER design from Project 1 into a functional SQL-based implementation using Oracle Live SQL. It includes creating tables, populating them with sample data, and executing practical queries for clinic operations and analytics.
+
+---
+
+## 📌 Objectives
+
+- Implement the database schema based on the ER model from Project 1.
+- Populate tables with representative patient, employee, and treatment data.
+- Write and execute SQL queries to support administrative and clinical workflows.
+- Develop reusable SQL scripts to answer key business questions.
+
+---
+
+## 🧱 Database Features
+
+- **Tables Created**: Patients, Doctors, Staff, Treatments, Billing, Insurance, Rooms, Capabilities
+- **Sample Data**: Populated using CSV-to-SQL auto-generation tools.
+- **Platform**: [Oracle Live SQL](https://livesql.oracle.com/)
+
+---
+
+## Shravya Shashidhar
+M.S. Computer Science | Database Systems & SQL Development
+
