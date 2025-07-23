@@ -1,0 +1,54 @@
+# 📊 Project 4: Tool-Based Linear Regression & Geospatial Visualization
+
+This project explores predictive modeling using visual data mining tools and geospatial visualization in R. It focuses on hands-on experience with regression tasks using WEKA, KNIME, and RapidMiner, and spatial computation using `geosphere` and `leaflet`.
+
+---
+
+## 🛠️ Tools Used
+
+- **WEKA**: Linear Regression on Boston Housing dataset.
+- **KNIME**: Regression and workflow automation on the Abalone dataset.
+- **RapidMiner**: Regression model building using drag-and-drop operators.
+- **R (geosphere, leaflet)**: Geographic coordinate analysis and web map visualization.
+
+---
+
+## 📌 Tasks Completed
+
+### 🧮 Linear Regression Models
+- Trained and evaluated linear regression models using:
+  - **WEKA**: Applied regression on the **Boston Housing** dataset; analyzed root mean squared error and attribute importance.
+  - **KNIME**: Processed the **Abalone** dataset to predict age from physical measurements using regression nodes.
+  - **RapidMiner**: Designed a drag-and-drop pipeline to train a linear regression model and generate performance metrics.
+
+### 🗺️ Geospatial Analysis in R
+- Calculated the **centroid** of a polygon formed by 6 user-defined GPS coordinates.
+- Used the `geosphere` package to compute centroid coordinates.
+- Visualized the result on an interactive web map using the `leaflet` library.
+
+---
+
+## 📈 Outcomes
+
+- Gained practical exposure to popular **no-code machine learning tools**.
+- Compared regression performance across tools using error metrics.
+- Built an interactive **map-based geographic insight** using R scripting.
+
+---
+
+## 📁 Directory Structure
+
+project_4/
+├── boston_housing_weka.model
+├── abalone_knime_workflow.png
+├── rapidminer_pipeline.png
+├── r_leaflet_map.html
+├── geosphere_centroid.R
+└── README.md
+
+---
+
+## 🧑‍💻 Author
+
+Shravya Shashidhar  
+*M.S. in Computer Science – Data Mining & Applied Machine Learning*
